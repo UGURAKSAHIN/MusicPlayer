@@ -42,6 +42,6 @@ Contributions, issues, and feature requests are welcome! Feel free to fork the r
 
 # 📜 License
 
-This project is licensed under the Apache 2.5 License – free to use, modify, and distribute.
+This project is licensed under the Apache-2.0 License – free to use, modify, and distribute.
      
 
