@@ -30,11 +30,9 @@ music-player/
 
 ## ⚙️ Installation & Usage
 
-- Clone the repository:
-   # git clone https://github.com/UGURAKSAHIN/MusicPlayer.git
+- Clone the repository: git clone https://github.com/UGURAKSAHIN/MusicPlayer.git
 
-- Open Project Folder:
-  # cd MusicPlayer
+- Open Project Folder: cd MusicPlayer
 
 # 🤝Contributing
 
