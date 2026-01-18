@@ -19,9 +19,9 @@ This project provides essential music player functionality with a clean UI and s
 - **JavaScript (ES6)** – Audio logic & DOM manipulation  
 
 ## 📸 Screenshots
-<img width="2179" height="1014" src="https://github.com/user-attachments/assets/614797b0-de33-4f9c-816f-94eb32cd4891" />
-<img width="2128" height="960" src="https://github.com/user-attachments/assets/3c4f8594-09ba-4238-9708-780b1bf500f3" />
-<img width="2062" height="969" src="https://github.com/user-attachments/assets/16ee9d96-f768-4e73-b712-63066033b9c8" />
+<img width="2179" height="1014" alt = "MusicPlayer" src="https://github.com/user-attachments/assets/614797b0-de33-4f9c-816f-94eb32cd4891" />
+<img width="2128" height="960" alt = "MusicPlayer" src="https://github.com/user-attachments/assets/3c4f8594-09ba-4238-9708-780b1bf500f3" />
+<img width="2062" height="969" alt = "MusicPlayer" src="https://github.com/user-attachments/assets/16ee9d96-f768-4e73-b712-63066033b9c8" />
 
 - Clone the repository: git clone https://github.com/UGURAKSAHIN/MusicPlayer.git
 
