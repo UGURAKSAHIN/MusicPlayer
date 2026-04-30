@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A lightweight JavaScript music player with local tracks and album artwork.">
+    <meta name="theme-color" content="#e7e7e7">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="preload" as="image" href="images/Sebnem-Ferah.png" fetchpriority="high">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js" defer></script>
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="background" aria-hidden="true">
+        <img id="bg-img" alt="" decoding="async">
+    </div>
+    <main class="container" aria-label="Music player">
+        <div class="player-img">
+            <img class="active" id="cover" alt="Album cover" width="300" height="300" decoding="async" fetchpriority="high">
+        </div>
+
+        <h2 id="music-title" aria-live="polite"></h2>
+        <h3 id="music-artist"></h3>
+
+        <div class="player-progress" id="player-progress" aria-label="Song progress">
+            <div class="progress" id="progress"></div>
+            <div class="music-duration">
+                <span id="current-time">0:00</span>
+                <span id="duration">0:00</span>
+            </div>
+        </div>
+
+        <div class="player-controls" aria-label="Player controls">
+            <button type="button" id="shuffle" title="Shuffle" aria-label="Shuffle">
+                <i class="fa-solid fa-shuffle" aria-hidden="true"></i>
+            </button>
+            <button type="button" id="prev" title="Previous" aria-label="Previous song">
+                <i class="fa-solid fa-backward" aria-hidden="true"></i>
+            </button>
+            <button type="button" id="play" class="play-button" title="Play" aria-label="Play or pause">
+                <i class="fa-solid fa-play" aria-hidden="true"></i>
+            </button>
+            <button type="button" id="next" title="Next" aria-label="Next song">
+                <i class="fa-solid fa-forward" aria-hidden="true"></i>
+            </button>
+            <button type="button" id="repeat" title="Repeat" aria-label="Repeat">
+                <i class="fa-solid fa-repeat" aria-hidden="true"></i>
+            </button>
+        </div>
+
+        <div class="volume-control" aria-label="Volume control">
+            <button type="button" id="volume-toggle" title="Mute" aria-label="Mute">
+                <i class="fa-solid fa-volume-high" aria-hidden="true"></i>
+            </button>
+            <input
+                type="range"
+                id="volume-slider"
+                class="volume-slider"
+                min="0"
+                max="1"
+                step="0.01"
+                value="0.75"
+                aria-label="Volume"
+            >
+        </div>
+
+        <section class="playlist-panel" aria-label="Playlist">
+            <ul class="playlist" id="playlist"></ul>
+        </section>
+    </main>
+</body>
+</html>
